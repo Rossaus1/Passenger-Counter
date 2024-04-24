@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/modern-railway-train-station-night-bright-colors-rapid-blurred-movement-fast-pace-business-abstract-concept-184980077.jpg");
+    background-size:cover;
+    font-family:NIGHT;
+    font-weight:bold;
+    text-align:center;
+    text-shadow:white 0px 0px 10px;
+    height: 100vh;
+}
+
+@font-face{
+    src:url('liquid-night.regular.ttf');
+    font-family:NIGHT;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight:bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    font-family:NIGHT;
+    text-shadow: black 0px 0px 5px;
+    font-size:20px;
+    border: whitesmoke 1px solid
+}
+
+#increment-btn {
+    background: maroon;
+}
+
+#save-btn {
+    background: seagreen;
+}
+
+.app-width{
+    width:350px;
+    margin:auto;
+}
